@@ -1,4 +1,11 @@
-# Add files here to ignore them from prettier formatting
-
-/dist
-/coverage
+bower_components
+coverage
+node_modules
+docs
+scripts/build
+package.json
+yarn.lock
+*.svg
+.prettierignore
+images
+Dockerfile

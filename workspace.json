@@ -1,8 +1,9 @@
 {
-  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
-  "version": 2,
-  "projects": {
-    "media-bookmarks": "apps/media-bookmarks",
-    "media-bookmarks-e2e": "apps/media-bookmarks-e2e"
-  }
+    "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+    "version": 2,
+    "projects": {
+        "core": "libs/core",
+        "media-bookmarks": "apps/media-bookmarks",
+        "second-screen": "apps/second-screen"
+    }
 }
