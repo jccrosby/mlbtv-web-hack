@@ -50,7 +50,7 @@ export function App() {
                 },
             },
             vod: { 'aaron-nola-in-play-no-out-to-albert-pujols': 7 },
-            svod: { 'mlbtv-featured-svod-video-list': 73 },
+            svod: { 'all-rise-for-baseball-zen': 73 },
         });
     };
 
@@ -69,7 +69,7 @@ export function App() {
             await updateBookmarks(bookmarks); */
             //deleteGameBookmark('662998');
             //deleteVodBookmark('aaron-nola-in-play-no-out-to-albert-pujols');
-            //deleteSvodBookmark('mlbtv-featured-svod-video-list');
+            //deleteSvodBookmark('all-rise-for-baseball-zen');
             //addGameBookmark('999999', { I_AM_A_CONTENT_ID: 999 });
             //sendEvent('commercialBreak', { type: 'start' });
         };
