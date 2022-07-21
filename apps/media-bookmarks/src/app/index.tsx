@@ -4,7 +4,7 @@ import {
     useBookmarks,
     useEventsApi,
     useFirestore,
-} from '@jcrosby/firebase-bookmarks';
+} from '@mlbtv-web-hack/firebase-bookmarks';
 import { MouseEvent, useEffect, useState } from 'react';
 import styled from 'styled-components';
 

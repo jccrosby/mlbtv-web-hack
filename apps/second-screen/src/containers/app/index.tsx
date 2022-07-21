@@ -4,7 +4,7 @@ import {
     onSnapshotUpdate,
     useEventsApi,
     useFirestore,
-} from '@jcrosby/firebase-bookmarks';
+} from '@mlbtv-web-hack/firebase-bookmarks';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { DateTime } from 'luxon';

@@ -1,10 +1,10 @@
 {
-    "name": "jcrosby",
+    "name": "mlbtv-web-hack",
     "version": "0.0.0",
     "license": "MIT",
     "scripts": {
         "start": "nx run-many --target=serve --projects=media-bookmarks,second-screen",
-        "build": "nx build",
+        "build": "nx run-many --target=build --projects=core,media-bookmarks,second-screen",
         "test": "nx test"
     },
     "private": true,
